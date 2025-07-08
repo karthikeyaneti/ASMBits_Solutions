@@ -10,4 +10,3 @@ _start:
 shift:
 	lsr r0, #24
     bx lr
-	

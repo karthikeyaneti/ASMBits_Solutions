@@ -8,4 +8,3 @@ _start:
 invert:
 	mvn r0, r0
     bx lr
-	

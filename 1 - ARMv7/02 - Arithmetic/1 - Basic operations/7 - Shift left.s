@@ -11,4 +11,3 @@ shift:
 	lsl r0, #16
     bx lr
 	
-	

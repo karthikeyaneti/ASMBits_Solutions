@@ -8,4 +8,3 @@ _start:
 odd:
 	and r0, #1
     bx lr
-	
