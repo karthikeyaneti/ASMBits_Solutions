@@ -5,6 +5,6 @@ _start:
 
 func:
     // return 123: Set r0 = 123 and then return from the function.
-    mov r0, #0x7b
+    mov r0, #123
     bx lr
 	
