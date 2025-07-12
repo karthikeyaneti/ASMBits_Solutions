@@ -6,6 +6,5 @@ _start:
 
 mask:
 	mov r1, #1
-    lsl r0, r1, r0
-    sub r0, #1
+    rsb r0, r1, r1, lsl r0
     bx lr
