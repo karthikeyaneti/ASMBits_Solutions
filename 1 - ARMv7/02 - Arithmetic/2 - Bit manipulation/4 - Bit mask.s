@@ -5,6 +5,6 @@ _start:
 1:	b 1b    // Done
 
 mask:
-	mov r1, #1
+    mov r1, #1
     rsb r0, r1, r1, lsl r0
     bx lr

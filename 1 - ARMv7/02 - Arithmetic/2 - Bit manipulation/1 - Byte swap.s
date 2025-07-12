@@ -7,5 +7,5 @@ _start:
 
 // Byte swap
 bswap:
-	rev r0, r0
+    rev r0, r0
     bx lr
