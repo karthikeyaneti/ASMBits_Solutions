@@ -8,4 +8,4 @@ _start:
 // A function to zero extend. Only this part will be tested.
 zeroext:
     uxtb r0, r0
-    bx lr
+    bx   lr

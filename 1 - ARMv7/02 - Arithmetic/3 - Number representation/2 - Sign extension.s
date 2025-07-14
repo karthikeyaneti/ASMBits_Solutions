@@ -8,4 +8,4 @@ _start:
 // A function to sign extend. Only this part will be tested.
 signext:
     sxtb r0, r0
-    bx lr
+    bx   lr
