@@ -10,7 +10,7 @@ _start:
 extend:
     cmp 	r0, #2
     bge		se
-	cmp 	r0, #1
+    cmp     r0, #1
     beq 	ze16
 ze8:
     uxtb 	r0, r1
