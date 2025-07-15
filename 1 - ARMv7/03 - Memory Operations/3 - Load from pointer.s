@@ -7,5 +7,5 @@ _start:
 
 // Dereference a pointer
 load:
-	ldr r0, [r0]
+    ldr r0, [r0]
     bx 	lr
