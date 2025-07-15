@@ -9,7 +9,7 @@ _start:
 
 .global load
 load:
-	ldrb	r3, [r0, #3]
+    ldrb	r3, [r0, #3]
     ldrb 	r2, [r0, #2]
     ldrb 	r1, [r0, #1]
     ldrb 	r0, [r0]

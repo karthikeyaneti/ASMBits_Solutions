@@ -9,4 +9,4 @@ _start:
 // Dereference a pointer
 load:
     ldr r0, [r0, r1, lsl #2]
-	bx 	lr
+    bx 	lr

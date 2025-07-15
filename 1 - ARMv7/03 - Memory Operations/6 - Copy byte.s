@@ -15,6 +15,6 @@ _start:
 
 // Copy a character from one string to another
 chrcpy:
-	ldrb	r0, [r0, r1]
-	strb	r0, [r2, r3]
-	bx 		lr
+    ldrb	r0, [r0, r1]
+    strb	r0, [r2, r3]
+    bx 		lr
