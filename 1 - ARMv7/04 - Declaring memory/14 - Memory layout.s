@@ -1,18 +1,8 @@
 // Declare something
 .data
-Data:
-.word A
-.space 3
-
-A:
-.space 1
-.word B
-.space 2
-
-B:
-.space 2
-.word Data
-
+Data:   .word A-1
+A:      .word B-2
+B:      .word Data
 
 .text
 .global _start
