@@ -10,11 +10,10 @@ _start:
 
 .global strlen
 strlen:
-	mov     r1, r0
+	add 	r2, r0, #1
 loop:
-	ldrb    r2, [r0], #1
-    cmp     r2, #0
-    bne     loop
-    sub     r0, r0, r1
-    sub     r0, r0, #1
-    bx      lr
+	ldrb 	r1, [r0], #1
+    cmp 	r1, #0
+    bne 	loop
+    sub 	r0, r0, r2
+    bx 		lr
